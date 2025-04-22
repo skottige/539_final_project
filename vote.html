@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Driver of the Round Poll</title>
+</head>
+
+<body>
+    <a class="skip" href="#main_anchor">Skip to Main Content</a>
+    <header>
+        <img src="images/logo.png" alt="F1 Fantasy Logo" class="logo">
+        <nav class="nav">
+            <ul>
+                <li><a href = "index.html">DRIVER STATS</a></li>
+                <li><a href = "vote.html" class="active">VOTING</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main_anchor">
+        <h1>Most Valuable Driver</h1>
+
+        <div id="poll-section">
+        <form id="vote-form">
+            <h2>Round 6 - Miami Grand Prix</h2>
+            <h3>Who do you think will be the most valuable F1 fantasy driver for the 2025 Miami Grand Prix?</h3>
+
+            <div class="driver-options">
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="oscar"/>
+                    <img src="images/oscar.png" alt="Oscar Piastri">
+                    <span>Oscar Piastri</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="lando"/>
+                    <img src="images/lando.png" alt="Lando Norris">
+                    <span>Lando Norris</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="george"/>
+                    <img src="images/george.png" alt="Reorge Russell">
+                    <span>George Russell</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="kimi"/>
+                    <img src="images/kimi.png" alt="Kimi Antonelli">
+                    <span>Kimi Antonelli</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="charles"/>
+                    <img src="images/charles.png" alt="Charles Leclerc">
+                    <span>Charles Leclerc</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="lewis"/>
+                    <img src="images/lewis.png" alt="Lewis Hamilton">
+                    <span>Lewis Hamilton</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="max"/>
+                    <img src="images/max.png" alt="Max Verstappen">
+                    <span>Max Verstappen</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="yuki"/>
+                    <img src="images/yuki.png" alt="Yuki Tsunoda">
+                    <span>Yuki Tsunoda</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="alex"/>
+                    <img src="images/alex.png" alt="Alex Albon">
+                    <span>Alex Albon</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="carlos"/>
+                    <img src="images/carlos.png" alt="Carlos Sainz">
+                    <span>Carlos Sainz</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="esteban"/>
+                    <img src="images/esteban.png" alt="Esteban Ocon">
+                    <span>Esteban Ocon</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="oliver"/>
+                    <img src="images/oliver.png" alt="Oliver Bearman">
+                    <span>Oliver Bearman</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="fernando"/>
+                    <img src="images/fernando.png" alt="Fernando Alonso">
+                    <span>Fernando Alonso</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="lance"/>
+                    <img src="images/lance.png" alt="Lance Stroll">
+                    <span>Lance Stroll</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="isack"/>
+                    <img src="images/isack.png" alt="Isack Hadjar">
+                    <span>Isack Hadjar</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="liam"/>
+                    <img src="images/liam.png" alt="Liam Lawson">
+                    <span>Liam Lawson</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="pierre"/>
+                    <img src="images/pierre.png" alt="Pierre Gasly">
+                    <span>Pierre Gasly</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="jack"/>
+                    <img src="images/jack.png" alt="Jack Doohan">
+                    <span>Jack Doohan</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="nico"/>
+                    <img src="images/nico.png" alt="Nico Hulkenberg">
+                    <span>Nico Hulkenberg</span>
+                </label>
+
+                <label class="driver-card">
+                    <input type="radio" name="driver" value="gabriel"/>
+                    <img src="images/gabriel.png" alt="Gabriel Bortoleto">
+                    <span>Gabriel Bortoleto</span>
+                </label>
+
+            </div>
+
+            <button type="submit" class="vote-button">Submit Vote</button>
+        </form>
+        </div>
+
+        <section id="results" class="poll-page__results" style="display: none;">
+        <!-- <section id="results" class="poll-page__results"> if results should be shown initially-->
+            <h2>Current Standings</h2>
+            <div class="results"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <h3>&copy; 2025 Saanch Kottige</h3>
+        <p>SI 539 Final Project - Winter '25</p>
+        <p>Explore <a href="https://fantasy.formula1.com/en/">F1 Fantasy</a> with interactive driver cards</p>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/f1/" class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://x.com/F1" class="social-icon"><img src="images/twitter.png" alt="X (twitter)"></a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
