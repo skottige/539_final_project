@@ -27,26 +27,26 @@ window.addEventListener("load", function () {
 
 // Driver Voting Logic
 const driverVotes = {
-  oscar: 0,
-  lando: 0,
-  george: 0,
-  kimi: 0,
-  charles: 0,
-  lewis: 0,
-  max: 0,
-  yuki: 0,
-  alex: 0,
-  carlos: 0,
-  esteban: 0,
-  oliver: 0,
-  fernando: 0,
-  lance: 0,
-  isack: 0,
-  liam: 0,
-  pierre: 0,
-  jack: 0,
-  nico: 0,
-  gabriel: 0
+  oscar: 12,
+  lando: 18,
+  george: 7,
+  kimi: 5,
+  charles: 14,
+  lewis: 20,
+  max: 22,
+  yuki: 3,
+  alex: 6,
+  carlos: 9,
+  esteban: 4,
+  oliver: 2,
+  fernando: 11,
+  lance: 8,
+  isack: 1,
+  liam: 3,
+  pierre: 10,
+  jack: 2,
+  nico: 5,
+  gabriel: 4
 };
 
 const driverNames = {
@@ -72,7 +72,7 @@ const driverNames = {
   gabriel: "Gabriel Bortoleto"
 };
 
-let totalVotes = 0;
+let totalVotes = 166;
 
 window.addEventListener("load", function () {
   const voteForm = document.getElementById("vote-form");
