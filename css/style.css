@@ -176,7 +176,7 @@ h3 {
   width: 100%;
   overflow: hidden;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -186,10 +186,10 @@ h3 {
   display: block;
 }
 
-.spotify-embed {
+/* .spotify-embed {
   margin-top: 10px;
   margin-bottom: 20px;
-}
+} */
 
 /* Stats */
 
