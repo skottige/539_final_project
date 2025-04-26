@@ -15,14 +15,17 @@
         <img src="images/logo.png" alt="F1 Fantasy Logo" class="logo">
         <nav class="nav">
             <ul>
-                <li><a href = "index.html">DRIVER STATS</a></li>
-                <li><a href = "vote.html" class="active">VOTING</a></li>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "stats.html">STATS</a></li>
+                <li><a href = "vote.html" class="active">VOTE</a></li>
             </ul>
         </nav>
     </header>
 
     <main id="main_anchor">
         <h1>Most Valuable Driver</h1>
+
+        <h2 class="tagline">Cast your vote for the most valuable driver of the upcoming race weekend</h2>
 
         <div id="poll-section">
         <form id="vote-form">
@@ -166,16 +169,20 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__content">
-        <h3>&copy; 2025 Saanch Kottige</h3>
-        <p>SI 539 Final Project - Winter '25</p>
-        <p>Explore <a href="https://fantasy.formula1.com/en/">F1 Fantasy</a> with interactive driver cards</p>
-      </div>
-      <div class="footer__social">
-        <a href="https://www.instagram.com/f1/" class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="https://x.com/F1" class="social-icon"><img src="images/twitter.png" alt="X (twitter)"></a>
-      </div>
-    </footer>
+        <div class="footer__content">
+          <h3>&copy; <span id="year"></span> Saanch Kottige</h3>
+          <script>
+              const year = new Date().getFullYear();
+              document.getElementById("year").textContent = year;
+          </script>
+          <p>SI 539 Final Project - Winter '25</p>
+          <p>Explore <a href="https://fantasy.formula1.com/en/">F1 Fantasy</a> with interactive driver cards</p>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/f1/" class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="https://x.com/F1" class="social-icon"><img src="images/twitter.png" alt="X (twitter)"></a>
+        </div>
+      </footer>
 
     <script src="js/main.js"></script>
 
